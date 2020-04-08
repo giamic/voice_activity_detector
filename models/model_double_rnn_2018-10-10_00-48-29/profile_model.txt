@@ -1,0 +1,17 @@
+
+Doc:
+scope: The nodes in the model graph are organized by their names, which is hierarchical like filesystem.
+param: Number of parameters (in the Variable).
+
+Profile:
+node name | # parameters
+_TFProfRoot (--/9.81k params)
+  dense_biases (1, 1/1 params)
+  dense_weights (16x1, 16/16 params)
+  rnn (--/9.79k params)
+    rnn/first_layer (--/6.66k params)
+      rnn/first_layer/bias (128, 128/128 params)
+      rnn/first_layer/kernel (51x128, 6.53k/6.53k params)
+    rnn/second_layer (--/3.14k params)
+      rnn/second_layer/bias (64, 64/64 params)
+      rnn/second_layer/kernel (48x64, 3.07k/3.07k params)
