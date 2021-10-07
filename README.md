@@ -1,5 +1,4 @@
 # Voice activity detector
-# Candidate: Gianluca MICCHI
 
 ## The goal
 Create a voice activity detector. I implemented it as a program that takes an audio file as an input and creates two files as an output: a json file containing the start and end time of the various speech segments (to mimic the provided dataset) and an audio file where a beep is superimposed to the original file when speech is detected, which allows for fast human verification of the quality of the software.
